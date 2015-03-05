@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		768AFFCE1AA87138008D6CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768AFFCD1AA87138008D6CB5 /* AppDelegate.swift */; };
+		768AFFD01AA87138008D6CB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768AFFCF1AA87138008D6CB5 /* ViewController.swift */; };
+		768AFFD31AA87138008D6CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768AFFD11AA87138008D6CB5 /* Main.storyboard */; };
+		768AFFD51AA87138008D6CB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768AFFD41AA87138008D6CB5 /* Images.xcassets */; };
+		768AFFD81AA87138008D6CB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 768AFFD61AA87138008D6CB5 /* LaunchScreen.xib */; };
+		768AFFE41AA87138008D6CB5 /* ScrollableBackgroundImageView_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768AFFE31AA87138008D6CB5 /* ScrollableBackgroundImageView_SampleTests.swift */; };
+		768AFFF01AA87837008D6CB5 /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 768AFFEF1AA87837008D6CB5 /* shadow.png */; };
+		76BA394F1AA88BC5004BE6C6 /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 76BA394E1AA88BC5004BE6C6 /* sample.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		768AFFDE1AA87138008D6CB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768AFFC01AA87138008D6CB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768AFFC71AA87138008D6CB5;
+			remoteInfo = "ScrollableBackgroundImageView-Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		768AFFC81AA87138008D6CB5 /* ScrollableBackgroundImageView-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScrollableBackgroundImageView-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		768AFFCC1AA87138008D6CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768AFFCD1AA87138008D6CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		768AFFCF1AA87138008D6CB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		768AFFD21AA87138008D6CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		768AFFD41AA87138008D6CB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		768AFFD71AA87138008D6CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		768AFFDD1AA87138008D6CB5 /* ScrollableBackgroundImageView-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScrollableBackgroundImageView-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		768AFFE21AA87138008D6CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768AFFE31AA87138008D6CB5 /* ScrollableBackgroundImageView_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableBackgroundImageView_SampleTests.swift; sourceTree = "<group>"; };
+		768AFFEF1AA87837008D6CB5 /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
+		76BA394E1AA88BC5004BE6C6 /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		768AFFC51AA87138008D6CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768AFFDA1AA87138008D6CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		768AFFBF1AA87138008D6CB5 = {
+			isa = PBXGroup;
+			children = (
+				768AFFCA1AA87138008D6CB5 /* ScrollableBackgroundImageView-Sample */,
+				768AFFE01AA87138008D6CB5 /* ScrollableBackgroundImageView-SampleTests */,
+				768AFFC91AA87138008D6CB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		768AFFC91AA87138008D6CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				768AFFC81AA87138008D6CB5 /* ScrollableBackgroundImageView-Sample.app */,
+				768AFFDD1AA87138008D6CB5 /* ScrollableBackgroundImageView-SampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768AFFCA1AA87138008D6CB5 /* ScrollableBackgroundImageView-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				768AFFCD1AA87138008D6CB5 /* AppDelegate.swift */,
+				768AFFCF1AA87138008D6CB5 /* ViewController.swift */,
+				768AFFD11AA87138008D6CB5 /* Main.storyboard */,
+				768AFFD41AA87138008D6CB5 /* Images.xcassets */,
+				768AFFEF1AA87837008D6CB5 /* shadow.png */,
+				76BA394E1AA88BC5004BE6C6 /* sample.png */,
+				768AFFD61AA87138008D6CB5 /* LaunchScreen.xib */,
+				768AFFCB1AA87138008D6CB5 /* Supporting Files */,
+			);
+			path = "ScrollableBackgroundImageView-Sample";
+			sourceTree = "<group>";
+		};
+		768AFFCB1AA87138008D6CB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				768AFFCC1AA87138008D6CB5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		768AFFE01AA87138008D6CB5 /* ScrollableBackgroundImageView-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				768AFFE31AA87138008D6CB5 /* ScrollableBackgroundImageView_SampleTests.swift */,
+				768AFFE11AA87138008D6CB5 /* Supporting Files */,
+			);
+			path = "ScrollableBackgroundImageView-SampleTests";
+			sourceTree = "<group>";
+		};
+		768AFFE11AA87138008D6CB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				768AFFE21AA87138008D6CB5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		768AFFC71AA87138008D6CB5 /* ScrollableBackgroundImageView-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768AFFE71AA87138008D6CB5 /* Build configuration list for PBXNativeTarget "ScrollableBackgroundImageView-Sample" */;
+			buildPhases = (
+				768AFFC41AA87138008D6CB5 /* Sources */,
+				768AFFC51AA87138008D6CB5 /* Frameworks */,
+				768AFFC61AA87138008D6CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScrollableBackgroundImageView-Sample";
+			productName = "ScrollableBackgroundImageView-Sample";
+			productReference = 768AFFC81AA87138008D6CB5 /* ScrollableBackgroundImageView-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		768AFFDC1AA87138008D6CB5 /* ScrollableBackgroundImageView-SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768AFFEA1AA87138008D6CB5 /* Build configuration list for PBXNativeTarget "ScrollableBackgroundImageView-SampleTests" */;
+			buildPhases = (
+				768AFFD91AA87138008D6CB5 /* Sources */,
+				768AFFDA1AA87138008D6CB5 /* Frameworks */,
+				768AFFDB1AA87138008D6CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768AFFDF1AA87138008D6CB5 /* PBXTargetDependency */,
+			);
+			name = "ScrollableBackgroundImageView-SampleTests";
+			productName = "ScrollableBackgroundImageView-SampleTests";
+			productReference = 768AFFDD1AA87138008D6CB5 /* ScrollableBackgroundImageView-SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		768AFFC01AA87138008D6CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = shoya140;
+				TargetAttributes = {
+					768AFFC71AA87138008D6CB5 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					768AFFDC1AA87138008D6CB5 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 768AFFC71AA87138008D6CB5;
+					};
+				};
+			};
+			buildConfigurationList = 768AFFC31AA87138008D6CB5 /* Build configuration list for PBXProject "ScrollableBackgroundImageView-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 768AFFBF1AA87138008D6CB5;
+			productRefGroup = 768AFFC91AA87138008D6CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				768AFFC71AA87138008D6CB5 /* ScrollableBackgroundImageView-Sample */,
+				768AFFDC1AA87138008D6CB5 /* ScrollableBackgroundImageView-SampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		768AFFC61AA87138008D6CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768AFFD31AA87138008D6CB5 /* Main.storyboard in Resources */,
+				768AFFD81AA87138008D6CB5 /* LaunchScreen.xib in Resources */,
+				768AFFD51AA87138008D6CB5 /* Images.xcassets in Resources */,
+				768AFFF01AA87837008D6CB5 /* shadow.png in Resources */,
+				76BA394F1AA88BC5004BE6C6 /* sample.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768AFFDB1AA87138008D6CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		768AFFC41AA87138008D6CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768AFFD01AA87138008D6CB5 /* ViewController.swift in Sources */,
+				768AFFCE1AA87138008D6CB5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768AFFD91AA87138008D6CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768AFFE41AA87138008D6CB5 /* ScrollableBackgroundImageView_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		768AFFDF1AA87138008D6CB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768AFFC71AA87138008D6CB5 /* ScrollableBackgroundImageView-Sample */;
+			targetProxy = 768AFFDE1AA87138008D6CB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		768AFFD11AA87138008D6CB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768AFFD21AA87138008D6CB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		768AFFD61AA87138008D6CB5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768AFFD71AA87138008D6CB5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		768AFFE51AA87138008D6CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		768AFFE61AA87138008D6CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		768AFFE81AA87138008D6CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ScrollableBackgroundImageView-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		768AFFE91AA87138008D6CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ScrollableBackgroundImageView-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		768AFFEB1AA87138008D6CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScrollableBackgroundImageView-SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollableBackgroundImageView-Sample.app/ScrollableBackgroundImageView-Sample";
+			};
+			name = Debug;
+		};
+		768AFFEC1AA87138008D6CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScrollableBackgroundImageView-SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollableBackgroundImageView-Sample.app/ScrollableBackgroundImageView-Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		768AFFC31AA87138008D6CB5 /* Build configuration list for PBXProject "ScrollableBackgroundImageView-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768AFFE51AA87138008D6CB5 /* Debug */,
+				768AFFE61AA87138008D6CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768AFFE71AA87138008D6CB5 /* Build configuration list for PBXNativeTarget "ScrollableBackgroundImageView-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768AFFE81AA87138008D6CB5 /* Debug */,
+				768AFFE91AA87138008D6CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768AFFEA1AA87138008D6CB5 /* Build configuration list for PBXNativeTarget "ScrollableBackgroundImageView-SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768AFFEB1AA87138008D6CB5 /* Debug */,
+				768AFFEC1AA87138008D6CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 768AFFC01AA87138008D6CB5 /* Project object */;
+}
